@@ -1,0 +1,140 @@
+body {
+  background: #fff;
+  color: #333;
+}
+img {
+  width: 300px;
+  filter: drop-shadow(6px 6px 8px #333);
+}
+
+.navbar {
+  padding-right: 100px;
+  padding-left: 150px;
+  padding-top: 30px;
+  /*background: rgba(0, 0, 0, 0.3);*/
+  font-size: 30px;
+  opacity: 0.8;
+  /* border-bottom: #fa9d32 3px solid;*/
+}
+
+.nav1 {
+  top: 10px;
+  border-right: #fa9d32 3px solid;
+}
+
+#home-section {
+  background: url("../img/img2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+}
+#home-section h1 {
+  font-size: 45px;
+}
+.display-4 {
+  padding-top: 210px;
+  text-shadow: 2px 1px #333;
+  padding-left: 125px;
+  position: fixed;
+  color: black;
+  opacity: 0.7;
+}
+
+#address {
+  position: fixed;
+  padding-left: 100px;
+  color: black;
+  text-align: left;
+  font-size: 26px;
+  padding-top: 480px;
+
+  opacity: 0.8;
+}
+.shade {
+  text-shadow: 1px 1px #333;
+}
+
+/*--------Responsive-------------*/
+@media (max-width: 768px) {
+  body {
+    background: #333;
+    color: #fff;
+  }
+  img {
+    width: 220px;
+  }
+
+  .navbar {
+    /*background-color: lightgrey;*/
+
+    padding-left: 30px;
+    /* border-bottom: #fa9d32 3px solid;*/
+    opacity: 0.9;
+  }
+
+  #home-section {
+    height: 100vh;
+  }
+
+  #home-section h1 {
+    font-size: 35px;
+  }
+  .display-4 {
+    padding-left: 20px;
+    padding-top: 180px;
+    color: black;
+
+    opacity: 0.8;
+  }
+
+  #address {
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    padding-top: 650px;
+    padding-left: 0px;
+    z-index: 1;
+    position: fixed;
+    opacity: 0.8;
+  }
+  .add {
+    background-color: black;
+    opacity: 0.9;
+  }
+
+  .shade {
+    color: white;
+    text-shadow: 1.5px 1px #333;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  img {
+    width: 250px;
+  }
+  .navbar {
+    padding-left: 40px;
+  }
+
+  #home-section h1 {
+    font-size: 40px;
+  }
+  .display-4 {
+    padding-left: 30px;
+    padding-top: 180px;
+    color: black;
+
+    opacity: 0.8;
+  }
+  #address {
+    color: black;
+    text-align: left;
+    font-size: 26px;
+    padding-top: 500px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    opacity: 0.9;
+  }
+}
